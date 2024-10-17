@@ -37,6 +37,7 @@ function App() {
             <h2>Education</h2>
             <p>Details about your education...</p>
           </section>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </main>
       </div>
 
