@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import profilepic from "./IMG_6786.JPG"
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
         {/* Left Sidebar */}
         <aside className="sidebar">
           <div className="profile-picture-wrapper">
+            {/* Replace 'profile-picture-url.jpg' with the actual URL or path to your image */}
             <img
-              src="your-profile-picture-url.jpg"
+              src="src\IMG_6786.JPG"
               alt="Your Name"
               className="profile-picture"
             />

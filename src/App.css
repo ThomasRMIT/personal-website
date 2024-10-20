@@ -1,9 +1,24 @@
-/* Body */
+/* Body with flowing green wave animation */
 body {
-  background-color: #28a745; /* Green background for the entire page */
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e7e34, #28a745, #81c784, #43a047, #66bb6a, #388e3c);
+  background-size: 200% 200%;
+  animation: greenWaveAnimation 10s ease infinite;
+}
+
+/* Keyframes for flowing green wave animation */
+@keyframes greenWaveAnimation {
+  0% {
+    background-position: 100% 100%; /* Start at bottom right */
+  }
+  50% {
+    background-position: 0% 0%; /* Move to top left */
+  }
+  100% {
+    background-position: 100% 100%; /* Back to bottom right */
+  }
 }
 
 /* Container */
@@ -11,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #e8f5e9; /* Light green for the content area */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the content area */
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow around the content */
 }
@@ -20,7 +35,7 @@ body {
 .header {
   text-align: center;
   padding: 20px;
-  background-color: #1e7e34; /* Dark green for the header */
+  background-color: #1e7e34;
   color: white;
 }
 
@@ -39,7 +54,7 @@ body {
 /* Sidebar */
 .sidebar {
   flex: 1;
-  background-color: #2ca55b; /* Medium green for the sidebar */
+  background-color: #43a047; /* Green shade for the sidebar */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -109,6 +124,19 @@ body {
 .footer p {
   margin: 0;
   font-size: 1rem;
+}
+
+.profile-picture-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 150px; /* Adjust width as necessary */
+  height: 150px; /* Ensure the height matches the width */
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover; /* Ensure the image covers the area and maintains aspect ratio */
+  border: 2px solid #ccc; /* Optional border around the picture */
 }
 
 /* Responsive Background */
