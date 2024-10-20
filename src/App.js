@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       {/* Header */}
       <header className="header">
-        <h1>Your Website Header</h1>
+        <h1>Welcome to My Portfolio</h1>
       </header>
 
       <div className="content-wrapper">
@@ -37,7 +37,6 @@ function App() {
             <h2>Education</h2>
             <p>Details about your education...</p>
           </section>
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </main>
       </div>
 
