@@ -102,7 +102,9 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2024 Thomas Williams. All rights reserved.</p>
+        <p>
+          Website designed and built by Thomas with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
+        </p>
       </footer>
     </div>
   );
