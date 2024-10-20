@@ -40,7 +40,11 @@ function App() {
             <p>Email: thomas2003williams@gmail.com</p>
             <p>Phone: 0406 191 718</p>
             <p>Location: Melbourne, Australia</p>
+            <p>
+              GitHub: <a href="https://github.com/ThomasRMIT" target="_blank" rel="noopener noreferrer">ThomasRMIT</a>
+            </p>
           </div>
+
         </aside>
 
         {/* Main Content */}
