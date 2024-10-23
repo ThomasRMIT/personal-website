@@ -7,7 +7,6 @@ function App() {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
-    // Show the name in the sidebar when scrolled down by 200px
     setShowNameInSidebar(scrollY > 200);
   };
 
@@ -44,16 +43,58 @@ function App() {
               GitHub: <a href="https://github.com/ThomasRMIT" target="_blank" rel="noopener noreferrer">ThomasRMIT</a>
             </p>
           </div>
-
         </aside>
 
         {/* Main Content */}
         <main className="main-content">
-          {/* Availability */}
+
+          {/* About Me */}
           <section className="content-section content-container">
-            <h2>Availability</h2>
-            <p>Monday - Sunday: All Day</p>
+            <h2>About Me</h2>
+            <p>
+              I am a passionate second-year Software Engineering student at RMIT with a strong interest in
+              developing innovative software solutions. My goal is to gain experience in various aspects of software development and work on real-world projects.
+            </p>
           </section>
+
+          {/* Technical Skills */}
+          <section className="content-section content-container">
+            <h2>Technical Skills</h2>
+            <ul>
+              <li>Programming Languages: Java, JavaScript, Python, C++</li>
+              <li>Web Development: React, HTML, CSS, Spring Boot</li>
+              <li>Database: MySQL, H2, MongoDB</li>
+              <li>Version Control: Git, GitHub</li>
+              <li>Tools: Docker, Maven, Jenkins, GitHub Actions</li>
+            </ul>
+          </section>
+
+          {/* Demonstrated Skills */}
+          <section className="content-section content-container">
+            <h2>Demonstrated Skills</h2>
+            <ul>
+              <li>Problem-solving and debugging in software projects</li>
+              <li>Team collaboration in software development environments</li>
+              <li>Continuous Integration and Deployment (CI/CD)</li>
+              <li>Developing responsive and accessible web applications</li>
+            </ul>
+          </section>
+
+           {/* 
+          <section className="content-section content-container">
+            <h2>Past Projects</h2>
+            <ul>
+              <li>
+                <strong>VetCare Web Application</strong> - Developed a veterinary clinic management system using Spring Boot, MySQL, and Docker.
+              </li>
+              <li>
+                <strong>Community Library System</strong> - Built a CRUD system for managing library books with a focus on MVC architecture.
+              </li>
+              <li>
+                <strong>Personal Portfolio Website</strong> - Created a personal website using React and GitHub Pages, showcasing my skills and projects.
+              </li>
+            </ul>
+          </section> */}
 
           {/* Education and Training */}
           <section className="content-section content-container">
@@ -73,9 +114,9 @@ function App() {
             </ul>
           </section>
 
-          {/* Employment History */}
+          {/* Employment */}
           <section className="content-section content-container">
-            <h2>Employment History</h2>
+            <h2>Employment</h2>
 
             <h3>Table Dealer – Crown Casino (May 2023 – Present)</h3>
             <p>Part Time Work</p>
@@ -100,6 +141,12 @@ function App() {
             <h3>Volunteer - The Smith Family (May 2018 - September 2018)</h3>
             <p>Volunteering</p>
             <p>Over an 18-week period, for 40-60 minutes a week, I volunteered for The Smith Family student2student peer support program in which I assisted in the learning improvement of students with reading difficulties. I underwent training by The Smith Family to help students develop reading confidence and skills through reading support methods. </p>
+          </section>
+
+          {/* Availability */}
+          <section className="content-section content-container">
+            <h2>Availability</h2>
+            <p>Monday - Sunday: All Day</p>
           </section>
         </main>
       </div>
