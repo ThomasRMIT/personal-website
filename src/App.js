@@ -103,7 +103,7 @@ function App() {
                 <p>Implemented MCTS, neural networks, and heuristic-based agents for games like Connect 4 and Tic Tac Toe with Unity-based visualization and benchmarking tools.</p>
               </li>
               <li>
-                <strong>Cancer Cell Image Classifier</strong> — PyTorch
+                <strong>Cancer Cell Image Classifier</strong> – <a href="https://thomaswilliams.dev/s4005524_s4005637.html" target="_blank" rel="noopener noreferrer">HTML Notebook</a>
                 <p>Implemented CNNs for medical image classification using EDA and model evaluation.</p>
               </li>
             </ul>
